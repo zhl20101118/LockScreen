@@ -2,7 +2,7 @@
 #include <shellapi.h>
 #include<bits/stdc++.h>
 using namespace std;
-string EXE_PATH = "D:\\1My_Computer_Lock\\lockscreen.exe";
+string EXE_PATH = "lockscreen.exe";
 HHOOK g_hHook = NULL;
 bool g_winPressed = false;
 DWORD g_lastTriggerTime = 0;
